@@ -1,0 +1,209 @@
+
+/*custom responsive strat*/
+@media (min-width: 1199.98px){
+.need{
+      display: inline-block !important;
+   }
+
+/*section_header custom responsive */
+@media (max-width: 1024px) { 
+   /*banner */
+   #banner .banner-content h1 {
+      font-size: 46px;   
+   }
+   #featured .section_header,
+   #popular .section_header{
+      flex-wrap: wrap;
+   }
+   #featured .section_header ul,
+   #popular .section_header ul{
+      width: 100%;
+   }
+   .section_header ul li {
+      padding-left: 0;
+   }
+   .support{
+      display: none;
+   }
+   #contact .contact_way {
+      margin-right: 0;
+  }
+
+}
+/* popular section custom responsive*/
+@media (min-width: 1200px){
+   #popular .product_dtls{
+      width: 20%;
+   }
+   #facility .facility_wraper {
+      padding-left: 10px;
+      width: 20%;
+   }
+   
+}
+/*banner custom responsive*/
+@media (max-width: 991px){
+   #banner .banner-content h1 {
+      font-size: 46px;
+      margin-bottom: 25px;
+   }
+   #banner .banner-content p {
+      font-size: 22px;
+      margin-bottom: 40px;
+   }
+   .banner_dtls {
+      margin: 60px 0;
+   }
+   #banner .banner-content form {
+      max-width: 400px;
+   }
+   .section_header ul{
+      margin-top: 10px;
+   }
+   }
+   @media (min-width: 768px){
+      .banner_arrow{
+         display: block;
+      }
+   }
+   @media (max-width: 480px){
+      .mobile-promotion{
+         display: block;
+      }
+   }
+/*custom responsive end*/
+/* lg responsive strat*/
+@media (min-width: 992px) and (max-width: 1199.98px){
+   /* lg responsive top header strat*/
+   .menu .main-menu > ul > li {
+      padding: 0px 15px;
+   }
+   .top_right_header ul .more span {
+      padding: 0px 18px 0 0;
+   }
+   #contact .contact_way {
+      margin-right: 0;
+  }
+  header .top_header ul li {
+	margin-right: 10px;
+   }
+   .middle_header .row {
+      justify-content: left;
+   }
+
+ /* lg responsive top header end*/
+}
+/* lg responsive end*/
+/*md respnsive strat */
+@media (min-width: 768px) and (max-width: 991.98px){
+   #product_banner .pruduct_item {
+      height: 100%;
+   }
+   #facility .facility_item {
+      padding: 20px 5px;
+   }
+   .mobile-promotion{
+      display: block;
+   }
+   header .middle_header {
+      padding: 20px 0;
+   }
+   /* #product_banner md strat*/
+   #product_banner .pruduct_item h3 {
+      margin-bottom: 15px;
+      min-height: 50px;
+      font-size: 18px;
+      font-weight: 700;
+      padding: 50px 125px 0 40px;
+      
+   }
+   #product_banner .pruduct_item {
+      min-height: 200px;
+   }
+      /* #product_banner md end*/
+      #popular .price a {
+         display: inline-block;
+         padding: 6px 10px 6px 20px;
+
+      }
+      .deals_info h4 {
+         font-size: 14px;
+      }
+}
+/*md respnsive end */
+/*sm resonsive strat*/
+@media (min-width: 576px) and (max-width: 767.98px){
+   #product_banner .pruduct_item h3 {
+      font-size: 18px;
+      font-weight: 700;
+      padding: 60px 310px 0 40px;
+   }
+   #banner_bottom .banner-content h2 {
+      font-weight: 700;
+
+   }
+}
+
+/*sm resonsive end*/
+/*mobile responsive strat */
+@media (max-width: 575.98px){
+   /*banner responsive strat*/
+   #banner .banner-content h1 {
+      font-size: 32px;
+   }
+   #banner .banner-content p {
+      font-size: 16px;
+   }
+   .banner_dtls {
+      padding-left: 40px;
+   }
+   #banner .banner-content form button {
+      padding: 13px 20px;
+    
+   }
+   /*banner responsive end*/
+
+   .section_header h2 {
+      font-size: 28px;
+   }
+   .section_header ul li a {
+      font-size: 14px;
+   }
+   /*product_banner responsive strat*/
+
+   #product_banner .pruduct_item h3 {
+      font-size: 18px;
+      font-weight: 700;
+      padding: 38px 125px 0 40px;
+   }
+   #product_banner .pruduct_item {
+      min-height: 170px;
+   }
+   .shop_btn {
+      margin-bottom: 30px;
+   }
+   #sells .section_header{
+      flex-wrap: wrap;
+   }
+   #sells .section_header ul{
+      width: 100%;
+   }
+   #deals .section_header ul{
+      display: none;
+   }
+   #banner_bottom .banner-content h2 {
+      font-size: 22px;
+   }
+   #banner_bottom .banner-content p {
+      font-size: 14px;
+      margin-bottom: 25px;
+   }
+}
+/*mobile responsive end */
+@media (max-width: 480px){
+   .mobile-promotion{
+      display: block;
+   }
+}
+
+}
